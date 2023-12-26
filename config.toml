@@ -508,10 +508,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # {{< version 0.2.0 >}} Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-XKQ0QBR4S8"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
@@ -524,7 +524,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       dataDomain = ""
     # Yandex Metrica
     [params.analytics.yandexMetrica]
-      id = ""
+      id = "95995415"
 
   # {{< version 0.2.7 >}} Cookie consent config
   [params.cookieconsent]
